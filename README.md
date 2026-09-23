@@ -10,6 +10,6 @@ The actual Vercel project ID and project origin still need to be recorded in `pu
 
 Set the bookstore environment variable `ICF_AI_ORIGIN` to the verified dedicated project origin after deployment. Follow the bookstore's `VERCEL_HANDOFF.md` for the deployment sequence. Do not invent a new public hostname or put paid files in this repository.
 
-A product-specific public PayPal link can be recorded in `checkout.hosted_url`. While it is null, the checkout uses the existing fixed merchant, item reference and USD 4.99 parameters. Payment acceptance and buyer receipt remain unverified.
+The owner-supplied ICF-AI payment link, `https://www.paypal.com/ncp/payment/AYFVNCSR6MYRG`, is recorded in `checkout.hosted_url`. The checkout route redirects only to that link. The manifest price remains USD 4.99. Hosted product settings, payment acceptance and buyer receipt remain unverified.
 
 The customer archive has three recorded files: PDF, purchaser licence and README. Its previous SHA256 and CRC verification is retained; this repair does not claim a new package audit.
