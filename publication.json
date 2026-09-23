@@ -29,7 +29,8 @@
     "return_path": "/icf-ai-delivery",
     "cancel_path": "/icf-ai",
     "verification": "not_completed",
-    "item_name": "ICF-AI | Integrative Causal Framework for AI Systems | Reference Edition v1.0"
+    "item_name": "ICF-AI | Integrative Causal Framework for AI Systems | Reference Edition v1.0",
+    "hosted_url": null
   },
   "release": {
     "archive": "ICF-AI_v1.0_Customer_Pack.zip",
@@ -94,7 +95,17 @@
       "/icf-ai",
       "/icf-ai.css",
       "/icf-ai-delivery",
-      "/api/icf-buy"
+      "/api/icf-buy",
+      "/icf-ai/publication.json",
+      "/icf-ai/release.json",
+      "/icf-ai/sitemap.xml",
+      "/icf-ai/llms.txt"
     ]
+  },
+  "public_metadata": {
+    "manifest": "/icf-ai/publication.json",
+    "release": "/icf-ai/release.json",
+    "sitemap": "/icf-ai/sitemap.xml",
+    "llms": "/icf-ai/llms.txt"
   }
 }
