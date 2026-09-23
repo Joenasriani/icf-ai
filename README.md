@@ -1,5 +1,9 @@
 # ICF-AI
 
-Public source for the ICF-AI Reference Edition page, public research record, discovery metadata and checkout route.
+Public source for the ICF-AI research record and Reference Edition page by J. Nasr.
 
-Canonical publication route: https://reasoning-library.vercel.app/icf-ai
+- Public research record: ./research/
+- Product page: https://reasoning-library.vercel.app/icf-ai
+- Reasoning Library: https://reasoning-library.vercel.app/
+
+This repository contains public research and publication source only. Private buyer files, customer records, credentials, deployment notes and internal production material are excluded.
