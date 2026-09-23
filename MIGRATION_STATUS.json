@@ -1,0 +1,12 @@
+{
+  "status": "CANONICAL_REPOSITORY_CREATED_NOT_DEPLOYED",
+  "production_changed": false,
+  "blockers": [
+    "Create and verify a dedicated Vercel project.",
+    "Verify /icf-ai, CSS, checkout and delivery on its preview before configuring store reverse-proxy routes.",
+    "Stable ICF-AI URL remains https://reasoning-library.vercel.app/icf-ai.",
+    "Resolve public research record link after creating its canonical repository.",
+    "Successful payment and actual buyer receipt not verified."
+  ],
+  "canonical_repository": "Joenasriani/icf-ai"
+}

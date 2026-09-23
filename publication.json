@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0.0",
+  "id": "icf-ai",
+  "kind": "research_framework",
+  "title": "ICF-AI",
+  "subtitle": "Integrative Causal Framework for AI Systems",
+  "author": "J. Nasr",
+  "edition": "Reference Edition v1.0",
+  "canonical_url": "https://reasoning-library.vercel.app/icf-ai",
+  "repository": {
+    "current": "Joenasriani/icf-ai",
+    "target": "Joenasriani/icf-ai",
+    "migration_status": "canonical_repository_created_deployment_pending"
+  },
+  "deployment": {
+    "provider": "vercel",
+    "project_id": null,
+    "team_id": "team_aK7orsaNw316c1bdLjjKFVMy",
+    "status": "not_created",
+    "root_directory": "."
+  },
+  "checkout": {
+    "provider": "paypal",
+    "endpoint": "/api/icf-buy",
+    "merchant": "joenasr@gmail.com",
+    "product_id": "ICF-AI-REF-1.0-2026-09",
+    "amount": "4.99",
+    "currency": "USD",
+    "return_path": "/icf-ai-delivery",
+    "cancel_path": "/icf-ai",
+    "verification": "not_completed",
+    "item_name": "ICF-AI | Integrative Causal Framework for AI Systems | Reference Edition v1.0"
+  },
+  "release": {
+    "archive": "ICF-AI_v1.0_Customer_Pack.zip",
+    "archive_sha256": "f76f7d8f27bc00e8c6fede23625a1fed78ba81df9940551459c37cda31545c3f",
+    "archive_verification": "sha256_and_crc_checked_2026-09-23",
+    "file_count": 3,
+    "files": [
+      {
+        "path": "ICF-AI_v1.0_Customer_Pack/README.txt",
+        "bytes": 155,
+        "sha256": "88251db92f43d67b64080b604cc9f333624bcb6eeff1f635564700ab71349467"
+      },
+      {
+        "path": "ICF-AI_v1.0_Customer_Pack/LICENSE_PURCHASER.txt",
+        "bytes": 677,
+        "sha256": "ab8573048fdc350f7db55061b14221a39c40f70dadcee7d175dd8dad9b922acc"
+      },
+      {
+        "path": "ICF-AI_v1.0_Customer_Pack/ICF-AI_v1.0_Reference_Edition.pdf",
+        "bytes": 411521,
+        "sha256": "40db96f8bcb781d42c510ec3e8b115d9b1293065b452372a9ca8d1910346516e"
+      }
+    ],
+    "product_id": "ICF-AI-REF-1.0-2026-09",
+    "price": "4.99",
+    "currency": "USD"
+  },
+  "description": "A provisional, modular causal research framework for studying how AI systems are formed, deployed, experienced, acted through and recursively changed.",
+  "catalogue": {
+    "theme": "icf",
+    "status": "published",
+    "coreIdea": "Trace an AI phenomenon from system conditions to observable behavior, outcomes and feedback.",
+    "storeLine": "Reference Edition v1.0 \u00b7 8-stage causal spine \u00b7 5 research domains \u00b7 evidence and research templates"
+  },
+  "source_evidence": {
+    "repository": "Joenasriani/test-things",
+    "commit": "1af2a6f67d3e07c582be8f7942b82ec1af9b57d4",
+    "paths": [
+      "store-v3/icf-ai.html",
+      "icf-ai/"
+    ]
+  },
+  "assets": [],
+  "routes": [
+    {
+      "path": "/icf-ai",
+      "file": "icf-ai.html",
+      "indexable": true
+    },
+    {
+      "path": "/icf-ai-delivery",
+      "file": "icf-ai-delivery.html",
+      "indexable": false
+    }
+  ],
+  "routing": {
+    "mode": "store_reverse_proxy",
+    "canonical_path_preserved": true,
+    "upstream_project_origin": null,
+    "verification": "not_completed",
+    "paths": [
+      "/icf-ai",
+      "/icf-ai.css",
+      "/icf-ai-delivery",
+      "/api/icf-buy"
+    ]
+  }
+}
