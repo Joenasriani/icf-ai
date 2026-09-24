@@ -22,4 +22,4 @@ Disallow: /
 User-agent: ClaudeBot
 Disallow: /
 
-Sitemap: https://reasoning-library.vercel.app/sitemap.xml
+Sitemap: https://icf-ai.vercel.app/sitemap.xml
