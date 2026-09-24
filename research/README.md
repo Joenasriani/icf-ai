@@ -60,7 +60,7 @@ Valid research content follows an additive preservation rule: **reorganize, recl
 
 The compact paid Reference Edition v1.0 packages the framework, workflow, evidence system, measurement structure, worked Paid Fluency Advantage example, and reusable schemas.
 
-Canonical product page: https://reasoning-library.vercel.app/icf-ai
+Canonical product page: https://icf-ai.vercel.app/icf-ai
 
 Current price: **USD 4.99** one-time.
 

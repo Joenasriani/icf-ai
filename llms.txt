@@ -1,4 +1,4 @@
 # ICF-AI
 
-Canonical product: https://reasoning-library.vercel.app/icf-ai
+Canonical product: https://icf-ai.vercel.app/icf-ai
 Public framework records remain in research/.
