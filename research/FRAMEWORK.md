@@ -54,7 +54,7 @@ Every study should state:
 - **Moderator(s):**
 - **Boundary conditions:**
 - **Identification strategy:**
-- **Evidence class:**
+- **Evidence state:**
 - **Alternative explanations:**
 - **Replication status:**
 
