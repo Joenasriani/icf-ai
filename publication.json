@@ -31,10 +31,10 @@
     "price": "4.99",
     "currency": "USD",
     "buyer_archive": "ICF-AI_v1.0_Customer_Pack.zip",
-    "buyer_archive_sha256": "7b5aa1e86a7c8f2545821aca96b7e6a974d5847e6317340fecb8654bda3558d2",
+    "buyer_archive_sha256": "7b7fdb3b13331ee8c0dac9e99a8e692912cd355f419b8389a62f0f6d76e39918",
     "buyer_archive_files": 3,
     "buyer_archive_issued": "2026-09-25",
-    "buyer_archive_status": "canonical_reissued_customer_pack_claim_epistemic_audited",
+    "buyer_archive_status": "canonical_reissued_customer_pack_source_provenance_audited",
     "package_validation": {
       "zip_crc": "PASS",
       "file_inventory": "PASS_3_FILES",
@@ -42,7 +42,8 @@
       "ambiguity_scan": "PASS",
       "conflict_scan": "PASS",
       "corrected_reference_pdf": "YES",
-      "claim_epistemic_scan": "PASS"
+      "claim_epistemic_scan": "PASS",
+      "source_provenance_scan": "PASS"
     }
   },
   "description": "A provisional, modular causal research framework for studying how AI systems are formed, deployed, experienced, acted through and recursively changed.",
