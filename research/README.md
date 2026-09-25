@@ -19,7 +19,7 @@ It is intended for research questions where an observed AI behavior cannot respo
 
 ## Research workflow
 
-**Observed phenomenon → relevant causal layers → variables → causal DAG → estimand → identification strategy → evidence classification → model update**
+**Observed phenomenon → relevant causal layers → variables → causal DAG → estimand → identification strategy → evidence-state classification → model update**
 
 The working rule is:
 
