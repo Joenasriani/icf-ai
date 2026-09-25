@@ -30,7 +30,7 @@ Replication Status:
 Notes:
 ```
 
-## Evidence classes
+## Evidence states
 
 **A — Directly documented**  
 Explicitly described by a primary technical or provider source.
