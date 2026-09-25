@@ -35,7 +35,7 @@ The working rule is:
 - Nonlinearity and feedback stability.
 - Measurement validity, reliability and replication.
 
-## Evidence classes
+## Evidence states
 
 - **A — Directly documented**
 - **B — Experimentally demonstrated**
