@@ -21,7 +21,7 @@ Confounders:
 Moderators:
 Research Design:
 Evidence Source:
-Evidence Class:
+Evidence State:
 Effect Estimate:
 Uncertainty:
 Boundary Conditions:
