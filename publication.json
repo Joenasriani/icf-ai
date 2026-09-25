@@ -46,6 +46,11 @@
       "indexable": true
     },
     {
+      "path": "/icf-ai-terms",
+      "file": "icf-ai-terms.html",
+      "indexable": true
+    },
+    {
       "path": "/icf-ai-delivery",
       "file": "icf-ai-delivery.html",
       "indexable": false
@@ -56,6 +61,7 @@
     "canonical_path_preserved": true,
     "paths": [
       "/icf-ai",
+      "/icf-ai-terms",
       "/icf-ai.css",
       "/icf-ai-delivery",
       "/api/icf-buy"
