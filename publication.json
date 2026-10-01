@@ -30,14 +30,20 @@
     "product_id": "ICF-AI-REF-1.0.1-2026-10",
     "price": "4.99",
     "currency": "USD",
-    "version": "1.0.1"
+    "version": "1.0.1",
+    "formats": [
+      "PDF",
+      "EPUB",
+      "fillable PDF workbook",
+      "project-source corpus"
+    ]
   },
   "description": "A provisional, modular causal research framework for studying how AI systems are formed, deployed, experienced, acted through and recursively changed.",
   "catalogue": {
     "theme": "icf",
     "status": "published",
     "coreIdea": "Trace an AI phenomenon from system conditions to observable behavior, outcomes and feedback.",
-    "storeLine": "Research Reference Edition v1.0.1 · 8-stage causal spine · 5 research domains · AI-ready project-source pack"
+    "storeLine": "Research Reference Edition v1.0.1 · PDF + EPUB · fillable workbook · AI-ready project-source pack"
   },
   "assets": [],
   "routes": [
