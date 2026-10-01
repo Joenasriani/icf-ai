@@ -1,6 +1,6 @@
 # ICF-AI
 
-Public source for the ICF-AI research record and Reference Edition page by J. Nasr.
+Public source for the ICF-AI research record and Research Reference Edition page by J. Nasr.
 
 - Public research record: ./research/
 - Product page: https://reasoning-and-logic.vercel.app/icf-ai
