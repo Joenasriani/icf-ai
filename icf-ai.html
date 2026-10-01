@@ -39,7 +39,7 @@
         "description": "A provisional, modular causal research framework for studying how AI systems are formed, deployed, experienced, acted through and recursively changed.",
         "author": {"@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"},
         "creator": {"@id": "https://joe-nasr-signals.vercel.app/#joe-nasr"},
-        "version": "1.0",
+        "version": "1.0.1",
         "datePublished": "2026-09-22",
         "dateModified": "2026-10-01",
         "inLanguage": "en",
@@ -77,95 +77,154 @@
     <h1>ICF-AI</h1>
     <p class="subtitle">Integrative Causal Framework for AI Systems</p>
     <p class="lede">A provisional, modular research architecture for tracing an AI phenomenon from system conditions and model formation through deployment, observable interaction, human or system response, real-world outcomes, and recursive feedback.</p>
-    <div class="buy-row">
-      <a class="buy" href="/api/icf-buy">Buy Research Reference Edition — $4.99</a>
-      <span>Research PDF + AI-ready project-source pack · one-time purchase · private email delivery after payment verification · not an instant download</span>
+    <div class="hero-actions">
+      <a class="buy" href="#checkout">See the research package — $4.99</a>
+      <a class="text-link" href="https://github.com/Joenasriani/icf-ai/tree/main/research">Inspect the public research record</a>
     </div>
-    <p><a href="/icf-ai-terms">Terms, licence &amp; delivery</a></p>
+    <p class="hero-note">The paid release combines the reader-facing Research Reference Edition with a private AI-ready source pack designed for use in a personal or internal research knowledge base.</p>
   </section>
 
   <section class="section" aria-labelledby="purpose">
     <h2 id="purpose">What it is</h2>
-    <p>ICF-AI is designed for research questions where an observed AI behavior cannot responsibly be attributed to a single model, prompt, training method, interface feature, or institution. It provides a structured way to decompose the system, state the causal claim, define measurable variables, test competing explanations, and preserve uncertainty where evidence is incomplete.</p>
+    <p>ICF-AI is designed for research questions where an observed AI behavior cannot responsibly be attributed to a single model, prompt, training method, interface feature, or institution. It provides a structured way to move from an observation to a causal research problem without pretending that the visible behavior already reveals its cause.</p>
+    <div class="purpose-grid">
+      <div><strong>Start with the observation</strong><p>Describe what happened in measurable terms before assigning a mechanism. This prevents the explanation from being smuggled into the question.</p></div>
+      <div><strong>Separate the causal layers</strong><p>Distinguish what came from model formation, runtime configuration, interface behavior, human response, institutional context, or later feedback.</p></div>
+      <div><strong>Turn explanation into a test</strong><p>Specify treatments, outcomes, mediators, confounders, estimands, assumptions, counterfactuals, and the evidence needed to change the claim status.</p></div>
+      <div><strong>Preserve what is not known</strong><p>Unknown telemetry, inaccessible system instructions, weak identification, and competing explanations remain explicit instead of being converted into confident narrative.</p></div>
+    </div>
   </section>
 
   <section class="section" aria-labelledby="spine">
     <h2 id="spine">The 8-stage causal spine</h2>
     <ol class="spine">
-      <li><strong>Conditions</strong><span>Infrastructure, markets, law, standards, dependencies and institutional constraints.</span></li>
-      <li><strong>Formation</strong><span>Data, annotation, architecture, pretraining, post-training, objectives and evaluation feedback.</span></li>
-      <li><strong>Deployment Stack</strong><span>Specifications, instructions, memory, retrieval, tools, routing, security and moderation.</span></li>
-      <li><strong>Observable Interaction</strong><span>Content, style, timing, tool use, uncertainty, refusal and action initiation.</span></li>
-      <li><strong>Human or System Response</strong><span>Perception, cognition, affect, epistemic judgment and behavior.</span></li>
-      <li><strong>Action and Outcome</strong><span>Digital or physical action, institutional decisions, resource allocation and state change.</span></li>
-      <li><strong>Collective and Institutional Effects</strong><span>Teams, organizations, collective reasoning, coordination and decision rights.</span></li>
-      <li><strong>Feedback and Recursion</strong><span>New data, incentives, norms, regulation, user adaptation and future AI systems.</span></li>
+      <li><b>01</b><strong>Conditions</strong><span>What external environment made the phenomenon possible or constrained it?</span><small>Compute, infrastructure, markets, law, standards, dependencies, institutional rules.</small></li>
+      <li><b>02</b><strong>Formation</strong><span>What processes shaped the capabilities or behavioral tendencies before deployment?</span><small>Data provenance, annotation, architecture, pretraining, post-training, objectives, reward structures, evaluation feedback.</small></li>
+      <li><b>03</b><strong>Deployment Stack</strong><span>What happened around the trained model at runtime?</span><small>System specifications, instructions, memory, retrieval, tools, routing, safety controls, inference settings, privacy and moderation.</small></li>
+      <li><b>04</b><strong>Observable Interaction</strong><span>What can actually be observed at the interface or through instrumentation?</span><small>Content, style, latency, tool use, memory use, citations, uncertainty, refusals and action initiation.</small></li>
+      <li><b>05</b><strong>Human or System Response</strong><span>How did the recipient react, interpret, trust, verify, or act?</span><small>Perception, cognition, affect, epistemic judgment, scrutiny, cognitive load, verification and behavior.</small></li>
+      <li><b>06</b><strong>Action and Outcome</strong><span>What state change occurred after the interaction?</span><small>Digital or physical action, collaboration, institutional decisions, resource allocation, task success, failure or other measurable outcome.</small></li>
+      <li><b>07</b><strong>Collective and Institutional Effects</strong><span>What changes when the unit of analysis is a team, organization or distributed decision system?</span><small>Collective intelligence, shared memory, coordination, attention, decision rights, correlated error and institutional resilience.</small></li>
+      <li><b>08</b><strong>Feedback and Recursion</strong><span>How does the outcome become part of the next causal environment?</span><small>User adaptation, new data, synthetic feedback, commercial optimization, regulation, norms, labor, markets and later systems.</small></li>
     </ol>
   </section>
 
-  <section class="section two" aria-labelledby="method">
-    <div>
-      <h2 id="method">How it is used</h2>
-      <ol>
-        <li>Define the observable phenomenon without assigning a cause.</li>
-        <li>Locate only the causal layers relevant to the question.</li>
-        <li>Define treatment, outcome, mediators, confounders and moderators.</li>
-        <li>Build the causal graph, using a DAG for acyclic questions and a time-indexed or other appropriate dynamic representation when reciprocal feedback is substantively required. State the estimand.</li>
-        <li>Select an identification strategy.</li>
-        <li>Measure, classify the evidence and record boundary conditions.</li>
-        <li>Update the causal model when evidence changes.</li>
-      </ol>
+  <section class="section method-section" aria-labelledby="method">
+    <div class="section-intro">
+      <p class="eyebrow">OPERATIONAL METHOD</p>
+      <h2 id="method">How a question moves through ICF-AI</h2>
+      <p>The framework is not a checklist to fill mechanically. It is a sequence for turning a vague explanation into a bounded research design.</p>
     </div>
-    <div>
-      <h2>Cross-cutting controls</h2>
-      <ul>
-        <li>Observability: measurable, inferable, inaccessible.</li>
-        <li>Boundary conditions and version metadata.</li>
-        <li>Time-scale separation.</li>
-        <li>Intervention and counterfactual analysis.</li>
-        <li>Latent-variable preservation.</li>
-        <li>Nonlinearity and feedback stability.</li>
-        <li>Measurement validity and replication.</li>
-      </ul>
+    <ol class="method-steps">
+      <li><strong>Define the phenomenon</strong><p>Write the observation without causal language. “Sponsored recommendations appeared faster” is an observation; “the system prioritized advertisers” is already an explanation.</p></li>
+      <li><strong>Locate candidate causal layers</strong><p>Activate only the parts of the framework that could plausibly contribute. Unrelated categories remain inactive unless new evidence makes them relevant.</p></li>
+      <li><strong>Specify the causal question</strong><p>Define the treatment or exposure, comparator, outcome, mediators, moderators and candidate confounders. The goal is to say exactly what difference is being explained.</p></li>
+      <li><strong>Build the causal representation</strong><p>Use a DAG for an acyclic causal question. If genuine reciprocal feedback exists, represent it across time or with another suitable dynamic model rather than drawing an invalid cycle inside a DAG.</p></li>
+      <li><strong>Define the estimand</strong><p>State the numerical causal quantity you actually want to know. This forces the analysis to distinguish a broad topic from a measurable causal contrast.</p></li>
+      <li><strong>Justify identification</strong><p>Choose a design and record the assumptions required for the causal effect to be identifiable, the evidence supporting those assumptions, plausible violations, and the weaker conclusion that remains if identification fails.</p></li>
+      <li><strong>Record evidence on separate dimensions</strong><p>Evidence basis, current claim status, observability, uncertainty and replication are not collapsed into one score. A documented feature is not automatically a demonstrated causal effect.</p></li>
+      <li><strong>Update rather than defend</strong><p>Results may support, weaken, split, contradict or reframe a mechanism. Competing explanations and prior versions remain traceable.</p></li>
+    </ol>
+  </section>
+
+  <section class="section controls-section" aria-labelledby="controls">
+    <div class="section-intro">
+      <p class="eyebrow">CROSS-CUTTING CONTROLS</p>
+      <h2 id="controls">What the framework forces you to keep visible</h2>
+    </div>
+    <div class="control-list">
+      <div><strong>Observability</strong><p>Separate what can be measured directly from what can only be inferred and what remains inaccessible or unknown.</p></div>
+      <div><strong>Boundary conditions</strong><p>State where a result is expected to hold: model, version, task, population, account tier, region, time period or other limiting condition.</p></div>
+      <div><strong>Time scale</strong><p>Do not mix milliseconds of interface latency with weeks of user adaptation or years of institutional change as though they are one process.</p></div>
+      <div><strong>Intervention and counterfactual</strong><p>Ask what could be changed, what comparison would isolate the effect, and what outcome would be expected under the alternative condition.</p></div>
+      <div><strong>Latent variables</strong><p>Keep unobserved but plausible causes in the model instead of silently assuming they are absent.</p></div>
+      <div><strong>Nonlinearity and feedback</strong><p>Effects may depend on thresholds, interactions, saturation, adaptation or recursive loops rather than a simple linear chain.</p></div>
+      <div><strong>Measurement validity</strong><p>Define how a construct becomes an observable measure and whether the instrument actually captures what the study claims it captures.</p></div>
+      <div><strong>Version and replication</strong><p>AI systems change. Every claim must retain model/version/date metadata and distinguish first observation from replicated evidence.</p></div>
     </div>
   </section>
 
-  <section class="section" aria-labelledby="included">
-    <h2 id="included">Research Reference Edition v1.0.1 includes</h2>
-    <div class="grid">
-      <p><strong>Core framework</strong><br>Eight-stage causal spine and five extended research domains.</p>
-      <p><strong>Research workflow</strong><br>From phenomenon definition to causal DAG, estimand and evidence update.</p>
-      <p><strong>Evidence architecture</strong><br>Evidence basis, current claim status, observability and identification are recorded separately.</p>
-      <p><strong>Measurement structure</strong><br>Construct, operational definition, instrument, reliability and validity requirements.</p>
-      <p><strong>Illustrative research design</strong><br>Paid Fluency Advantage as a testable design example, not a completed study or observed platform effect.</p>
-      <p><strong>Reusable templates</strong><br>Research-question, identification, evidence, claim-status and measurement records.</p>
-      <p><strong>AI-ready project sources</strong><br>Fourteen canonical research modules plus a derived ontology for private AI/RAG use.</p>
+  <section class="section package-section" aria-labelledby="included">
+    <div class="section-intro">
+      <p class="eyebrow">THE RELEASE</p>
+      <h2 id="included">What is inside the Research Reference Edition v1.0.1</h2>
+      <p>The paid release has two connected layers: a reader-facing research document and a machine-usable knowledge layer for private AI-assisted research.</p>
+    </div>
+    <div class="package-groups">
+      <div class="package-group">
+        <h3>Research Reference Edition</h3>
+        <dl>
+          <div><dt>Core framework</dt><dd>The eight-stage causal spine plus five extended research domains for formation, system context, recursion, agentic systems and collective intelligence.</dd></div>
+          <div><dt>Operational research method</dt><dd>A step-by-step path from observation to causal question, graph, estimand, identification assumptions, evidence recording and model revision.</dd></div>
+          <div><dt>Evidence architecture</dt><dd>Separate fields for evidence basis, current claim status, observability and identification so different epistemic questions are not collapsed into one label.</dd></div>
+          <div><dt>Measurement structure</dt><dd>Guidance for turning abstract constructs into measurable variables using explicit operational definitions, instruments, reliability and validity checks.</dd></div>
+          <div><dt>Illustrative PFA design</dt><dd>Paid Fluency Advantage is used as a bounded example of how to formulate and falsify a causal hypothesis. It is not presented as an observed effect on a specific platform.</dd></div>
+          <div><dt>Reusable research records</dt><dd>Templates for research questions, identification assumptions, evidence and claim status, counterfactuals, boundary conditions, replication and status changes.</dd></div>
+        </dl>
+      </div>
+      <div class="package-group machine">
+        <h3>AI-ready project-source pack</h3>
+        <dl>
+          <div><dt>14 canonical research modules</dt><dd>The framework is split into retrieval-friendly source files so an AI project or private RAG system can retrieve the relevant part without relying on one monolithic document.</dd></div>
+          <div><dt>Derived ontology</dt><dd>A structured JSON index representing the causal spine, evidence basis, claim statuses, observability states, research domains and key source boundaries.</dd></div>
+          <div><dt>Private AI use licence</dt><dd>The project-source files may be loaded into private, non-public AI knowledge bases, local LLM tools and internal research assistants for the licensed uses.</dd></div>
+          <div><dt>Source integrity</dt><dd>The AI knowledge files are cleaned of chat residue, RAG-building instructions, sales copy and duplicated full-text representations so the semantic corpus stays focused on research knowledge.</dd></div>
+        </dl>
+      </div>
     </div>
   </section>
 
   <section class="section" aria-labelledby="status">
     <h2 id="status">Research status and scope</h2>
     <p>ICF-AI is presented as a <strong>provisional, versioned integrative causal research architecture</strong>, not as a universal theory of AI. Plausible mechanisms are treated as hypotheses until supported by evidence. The framework is descriptive before normative and is intended to be revised when evidence requires it.</p>
-    <p>The public GitHub record preserves the core structure, version history and additive research rule. The paid Reference Edition packages the framework into a compact reader document with the operational research structure and reusable schemas.</p>
-  </section>
-
-  <section class="section price-section">
-    <div>
-      <p class="eyebrow">REFERENCE EDITION V1.0</p>
-      <h2>$4.99</h2>
-      <p>Low-cost introductory release. One-time purchase.</p>
+    <p>The public GitHub record preserves the core structure, selected methodological documentation and version history so the framework can be inspected before purchase. The paid release packages the complete reader-facing research document together with the private AI-ready project-source layer.</p>
+    <div class="status-notes">
+      <p><strong>What it does claim</strong><span>A structured research architecture for decomposing multi-layer AI phenomena and making causal assumptions, evidence and uncertainty explicit.</span></p>
+      <p><strong>What it does not claim</strong><span>It is not a universal theory of AI, not a peer-reviewed validation of itself, and not proof that any proposed mechanism exists on a particular platform.</span></p>
+      <p><strong>How it should change</strong><span>The framework is versioned. Categories, relationships and records are expected to be revised when empirical evidence or methodological criticism requires it.</span></p>
     </div>
-    <a class="buy" href="/api/icf-buy">Buy ICF-AI</a>
   </section>
 
-  <section class="section fineprint">
-    <h2>Delivery</h2>
-    <p>Checkout is handled through PayPal. Payment return is not treated as proof of payment. After a completed transaction is verified, the ICF-AI v1.0.1 Customer Pack is delivered privately by email; this is not an instant-download checkout. The paid files are not stored in the public repository. <a href="/icf-ai-terms">Terms, licence &amp; delivery</a>.</p>
+  <section class="section checkout-section" id="checkout" aria-labelledby="checkout-title">
+    <div class="checkout-head">
+      <div>
+        <p class="eyebrow">RESEARCH REFERENCE EDITION V1.0.1</p>
+        <h2 id="checkout-title">Get the complete research package</h2>
+        <p class="checkout-lede">One purchase includes the fixed-layout research edition and the clean private project-source knowledge pack.</p>
+      </div>
+      <div class="price-lockup">
+        <span>USD</span>
+        <strong>$4.99</strong>
+        <small>one-time purchase</small>
+      </div>
+    </div>
+
+    <div class="checkout-body">
+      <div class="checkout-contents">
+        <h3>Included</h3>
+        <ul>
+          <li><strong>ICF-AI v1.0.1 Research Reference Edition PDF</strong><span>The complete reader-facing research framework.</span></li>
+          <li><strong>15-file private AI knowledge pack</strong><span>14 canonical research modules plus the derived ontology.</span></li>
+          <li><strong>START_HERE guide</strong><span>Explains what to load into a private AI project or RAG system and what stays outside the semantic corpus.</span></li>
+          <li><strong>Purchaser licence</strong><span>Covers personal study, internal research, teaching preparation, internal organizational analysis and private non-public AI/RAG use.</span></li>
+          <li><strong>Integrity metadata</strong><span>Version and checksum information for the delivered package.</span></li>
+        </ul>
+      </div>
+
+      <div class="checkout-action">
+        <p class="checkout-label">CHECKOUT</p>
+        <a class="buy buy-large" href="/api/icf-buy">Continue to PayPal — $4.99</a>
+        <p class="checkout-note">PayPal handles payment. The payment-return page is not treated as proof of payment.</p>
+        <p class="checkout-note">After the completed transaction is verified, the <strong>ICF-AI_v1.0.1_Customer_Research_Pack.zip</strong> is delivered privately by email. This is not an instant-download checkout.</p>
+        <p class="checkout-note">The paid files are not intentionally exposed through the public repository.</p>
+        <a class="terms-link" href="/icf-ai-terms">Read terms, purchaser licence, refund and delivery information</a>
+      </div>
+    </div>
   </section>
 </main>
 
 <footer>
-  <span>ICF-AI · REFERENCE EDITION V1.0</span>
+  <span>ICF-AI · RESEARCH REFERENCE EDITION V1.0.1</span>
   <nav><a href="https://reasoning-and-logic.vercel.app/">Reasoning and Logic</a><a href="https://github.com/Joenasriani/icf-ai/tree/main/research">GitHub research record</a></nav>
 </footer>
 </body>
