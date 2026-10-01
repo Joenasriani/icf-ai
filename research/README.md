@@ -68,9 +68,9 @@ An identification record also states the assumptions required for the causal con
 
 Valid research content follows an additive preservation rule: **reorganize, reclassify, cross-link and version; do not erase.**
 
-## Reference Edition
+## Research Reference Edition
 
-The paid Research Research Reference Edition v1.0.1.1 packages the corrected framework, identification workflow, evidence/claim architecture, measurement structure, an illustrative Paid Fluency Advantage research design, reusable schemas, and a private AI-ready project-source pack.
+The paid Research Reference Edition v1.0.1 packages the corrected framework, identification workflow, evidence/claim architecture, measurement structure, an illustrative Paid Fluency Advantage research design, reusable schemas, a reflowable EPUB, a fillable research workbook, and a private AI-ready project-source pack.
 
 Canonical product page: https://reasoning-and-logic.vercel.app/icf-ai
 
