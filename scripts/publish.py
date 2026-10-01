@@ -54,6 +54,9 @@ def product_schema(m):
         "description": m["description"],
         "author": {"@type": "Person", "name": m["author"], "url": "https://joe-nasr-signals.vercel.app/"},
         "inLanguage": "en",
+        "version": m.get("version"),
+        "datePublished": m.get("date_published"),
+        "dateModified": m.get("date_modified"),
         "offers": {
             "@type": "Offer",
             "price": m["checkout"]["amount"],
