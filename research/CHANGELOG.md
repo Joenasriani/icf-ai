@@ -1,5 +1,18 @@
 # ICF-AI Changelog
 
+## v1.0.1 — 2026-10-01
+
+Research-method specification patch.
+
+- Separated evidence basis from current claim status.
+- Added identification assumptions, supporting evidence, plausible violations and permissible conclusions when identification fails.
+- Clarified that counterfactual simulation is model-based analysis and does not itself identify real-world causal effects.
+- Clarified DAG use for recursive systems by requiring time-indexed or otherwise appropriate dynamic representation.
+- Reframed Paid Fluency Advantage as an illustrative research design rather than a completed study or observed platform effect.
+- Expanded standard research records for observability, competing explanations, status changes and missing telemetry.
+- Added the private AI-ready project-source pack to the purchaser release while keeping the public research record separate.
+
+
 ## v1.0 — 2026-09-22
 
 Initial public research record.
