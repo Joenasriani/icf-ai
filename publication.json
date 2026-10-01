@@ -5,7 +5,7 @@
   "title": "ICF-AI",
   "subtitle": "Integrative Causal Framework for AI Systems",
   "author": "J. Nasr",
-  "edition": "Reference Edition v1.0",
+  "edition": "Research Reference Edition v1.0.1",
   "canonical_url": "https://reasoning-and-logic.vercel.app/icf-ai",
   "repository": {
     "current": "Joenasriani/icf-ai"
@@ -19,24 +19,25 @@
     "mode": "hosted_button",
     "endpoint": "/api/icf-buy",
     "hosted_url": "https://www.paypal.com/ncp/payment/AYFVNCSR6MYRG",
-    "product_id": "ICF-AI-REF-1.0-2026-09",
-    "item_name": "ICF-AI | Integrative Causal Framework for AI Systems | Reference Edition v1.0",
+    "product_id": "ICF-AI-REF-1.0.1-2026-10",
+    "item_name": "ICF-AI | Integrative Causal Framework for AI Systems | Research Reference Edition v1.0.1",
     "amount": "4.99",
     "currency": "USD",
     "return_path": "/icf-ai-delivery",
     "cancel_path": "/icf-ai"
   },
   "release": {
-    "product_id": "ICF-AI-REF-1.0-2026-09",
+    "product_id": "ICF-AI-REF-1.0.1-2026-10",
     "price": "4.99",
-    "currency": "USD"
+    "currency": "USD",
+    "version": "1.0.1"
   },
   "description": "A provisional, modular causal research framework for studying how AI systems are formed, deployed, experienced, acted through and recursively changed.",
   "catalogue": {
     "theme": "icf",
     "status": "published",
     "coreIdea": "Trace an AI phenomenon from system conditions to observable behavior, outcomes and feedback.",
-    "storeLine": "Reference Edition v1.0 · 8-stage causal spine · 5 research domains · evidence and research templates"
+    "storeLine": "Research Reference Edition v1.0.1 · 8-stage causal spine · 5 research domains · AI-ready project-source pack"
   },
   "assets": [],
   "routes": [
@@ -66,5 +67,8 @@
       "/icf-ai-delivery",
       "/api/icf-buy"
     ]
-  }
+  },
+  "version": "1.0.1",
+  "date_published": "2026-09-22",
+  "date_modified": "2026-10-01"
 }
