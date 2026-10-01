@@ -1,4 +1,4 @@
-# ICF-AI v1.0 — Core Framework
+# ICF-AI v1.0.1 — Core Framework
 
 ## Purpose
 
@@ -28,7 +28,7 @@ State changes produced through digital action, physical action, collaboration, i
 Distributed systems involving multiple humans, models, agents, rules and organizations: collective intelligence, coordination, institutional memory, attention, decision rights and correlated error.
 
 ### 8. Feedback and Recursion
-How outcomes become future causal conditions through user adaptation, new data, synthetic-data feedback, commercial optimization, regulation, institutional change, language/norm change and later AI training.
+How outcomes become future causal conditions through user adaptation, new data, synthetic-data feedback, commercial optimization, regulation, institutional change, language/norm change and later AI training. Reciprocal feedback should be represented across time or with an appropriate dynamic/feedback model rather than as a directed cycle inside a DAG.
 
 ## Cross-cutting dimensions
 
@@ -46,16 +46,23 @@ Every study should state:
 ## Minimal causal study template
 
 - **Phenomenon:**
-- **Treatment:**
+- **Treatment / exposure:**
+- **Comparator / intervention contrast:**
 - **Outcome:**
 - **Estimand:**
 - **Mediator(s):**
-- **Confounder(s):**
+- **Candidate confounder(s):**
 - **Moderator(s):**
 - **Boundary conditions:**
 - **Identification strategy:**
-- **Evidence state:**
+- **Identification assumptions:**
+- **Evidence supporting assumptions:**
+- **Plausible violations / threats:**
+- **Evidence basis:** DOC / EXP / OBS / COR / SIM / NONE
+- **Current claim status:** SUPPORTED / MIXED / NOT SUPPORTED / CONTRADICTED / UNRESOLVED / HYPOTHESIS
+- **Observability state:**
 - **Alternative explanations:**
+- **If not identifiable, permissible conclusion:**
 - **Replication status:**
 
 ## Additive preservation rule
