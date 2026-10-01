@@ -11,6 +11,8 @@ Research-method specification patch.
 - Reframed Paid Fluency Advantage as an illustrative research design rather than a completed study or observed platform effect.
 - Expanded standard research records for observability, competing explanations, status changes and missing telemetry.
 - Added the private AI-ready project-source pack to the purchaser release while keeping the public research record separate.
+- Added stable foundational source IDs S01-S08 and verified DOI/ISBN/PMID identifiers where available.
+- Added a reflowable EPUB edition and fillable research workbook to the purchaser package.
 
 
 ## v1.0 — 2026-09-22
