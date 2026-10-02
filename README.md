@@ -7,3 +7,4 @@ Public source for the ICF-AI research record and Research Reference Edition page
 - Reasoning and Logic: https://reasoning-and-logic.vercel.app/
 
 This repository contains public research and publication source only. Private buyer files, customer records, credentials, deployment notes and internal production material are excluded.
+
