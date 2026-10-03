@@ -42,11 +42,11 @@
     "workbook_form_fields": 66,
     "project_source_files": 15
   },
-  "description": "A provisional, modular causal research framework for studying how AI systems are formed, deployed, experienced, acted through and recursively changed.",
+  "description": "A versioned causal research framework for separating model formation, deployment, observable interaction, response, outcomes and feedback in AI systems.",
   "catalogue": {
     "theme": "icf",
     "status": "published",
-    "coreIdea": "Trace an AI phenomenon from system conditions to observable behavior, outcomes and feedback.",
+    "coreIdea": "Trace an AI phenomenon across system conditions, model formation, deployment, interaction, outcomes and feedback.",
     "storeLine": "Research Reference Edition v1.0.1 · PDF + EPUB · fillable workbook · AI-ready project-source pack"
   },
   "assets": [],
