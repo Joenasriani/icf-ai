@@ -72,7 +72,7 @@ Valid research content follows an additive preservation rule: **reorganize, recl
 
 The paid Research Reference Edition v1.0.1 packages the corrected framework, identification workflow, evidence/claim architecture, measurement structure, an illustrative Paid Fluency Advantage research design, reusable schemas, a reflowable EPUB, a fillable research workbook, and a private AI-ready project-source pack.
 
-Canonical product page: https://reasoning-and-logic.vercel.app/icf-ai
+Canonical product page: https://icf-ai.vercel.app/icf-ai
 
 Current price: **USD 4.99** one-time.
 
