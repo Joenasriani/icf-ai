@@ -36,7 +36,11 @@
       "EPUB",
       "fillable PDF workbook",
       "project-source corpus"
-    ]
+    ],
+    "book_pages": 24,
+    "workbook_pages": 12,
+    "workbook_form_fields": 66,
+    "project_source_files": 15
   },
   "description": "A provisional, modular causal research framework for studying how AI systems are formed, deployed, experienced, acted through and recursively changed.",
   "catalogue": {
@@ -76,7 +80,7 @@
   },
   "version": "1.0.1",
   "date_published": "2026-09-22",
-  "date_modified": "2026-10-01",
+  "date_modified": "2026-10-03",
   "package": {
     "delivered_artifacts": [
       "ICF-AI_v1.0.1_Research_Reference_Edition.pdf",

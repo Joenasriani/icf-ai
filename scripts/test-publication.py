@@ -1,5 +1,9 @@
 from pathlib import Path
-import json, re, shutil, subprocess, sys, tempfile
+import argparse, json, re, shutil, subprocess, sys, tempfile
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--public-only", action="store_true", help="Validate public content without checkout tests")
+args = parser.parse_args()
 
 root = Path(__file__).resolve().parents[1]
 
@@ -65,16 +69,17 @@ with tempfile.TemporaryDirectory() as tmp:
     if (candidate / "publication.json").exists():
         p = candidate / "publication.json"
         original = p.read_text()
-        m = json.loads(original)
-        m["checkout"]["product_id"] = "WRONG"
-        p.write_text(json.dumps(m))
-        need(run(candidate, "build").returncode != 0, "Cross-product checkout was accepted")
-        p.write_text(original)
-        m = json.loads(original)
-        m["checkout"]["amount"] = "0.01"
-        p.write_text(json.dumps(m))
-        need(run(candidate, "build").returncode != 0, "Conflicting checkout price was accepted")
-        p.write_text(original)
+        if not args.public_only:
+            m = json.loads(original)
+            m["checkout"]["product_id"] = "WRONG"
+            p.write_text(json.dumps(m))
+            need(run(candidate, "build").returncode != 0, "Cross-product checkout was accepted")
+            p.write_text(original)
+            m = json.loads(original)
+            m["checkout"]["amount"] = "0.01"
+            p.write_text(json.dumps(m))
+            need(run(candidate, "build").returncode != 0, "Conflicting checkout price was accepted")
+            p.write_text(original)
         m = json.loads(original)
         if m.get("assets"):
             asset = candidate / m["assets"][0]["path"]
@@ -88,7 +93,7 @@ with tempfile.TemporaryDirectory() as tmp:
         p.write_text(json.dumps(m))
         need(run(candidate, "build").returncode != 0, "Catalogue identity tampering was accepted")
 
-if (root / "publication.json").exists():
+if (root / "publication.json").exists() and not args.public_only:
     m = json.loads((root / "publication.json").read_text())
     endpoint = m["checkout"]["endpoint"].lstrip("/") + ".js"
     script = """import assert from 'node:assert/strict';
@@ -107,4 +112,7 @@ assert.equal(out.Allow,'GET, HEAD');
     r = subprocess.run(["node", "--input-type=module", "-e", script], cwd=root, capture_output=True, text=True)
     need(r.returncode == 0, r.stderr)
 
-print("PASS: public boundary, deterministic build, identity/price integrity, hosted checkout")
+if args.public_only:
+    print("PASS: public boundary, deterministic build and public asset integrity (checkout tests excluded)")
+else:
+    print("PASS: public boundary, deterministic build, identity/price integrity, hosted checkout")
