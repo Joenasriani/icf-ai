@@ -1,5 +1,5 @@
 # ICF-AI
 
 Canonical product: https://reasoning-and-logic.vercel.app/icf-ai
-Current release: Research Reference Edition v1.0.1 — PDF + EPUB + fillable workbook + private AI-ready project-source pack.
+Current release: Research Reference Edition v1.0.1: PDF + EPUB + fillable workbook + private AI-ready project-source pack.
 Public framework records remain in research/.
