@@ -76,5 +76,44 @@
   },
   "version": "1.0.1",
   "date_published": "2026-09-22",
-  "date_modified": "2026-10-01"
+  "date_modified": "2026-10-01",
+  "package": {
+    "formats": [
+      "PDF",
+      "EPUB"
+    ],
+    "includes": [
+      "Research Reference Edition v1.0.1",
+      "12-page fillable research workbook",
+      "15-file private AI knowledge pack",
+      "public research record"
+    ],
+    "delivery": "Customer Research Pack delivered privately by email after payment verification",
+    "ai_use": "Private, non-public AI knowledge bases, local LLM tools and internal research assistants within the purchaser licence"
+  },
+  "positioning": {
+    "audience": [
+      "AI researchers",
+      "AI evaluators",
+      "analysts",
+      "causal-model builders",
+      "research-system designers"
+    ],
+    "outcomes": [
+      "turn observed AI behavior into a bounded causal research question",
+      "separate model, runtime, interface, human, institutional and feedback layers",
+      "define estimands, assumptions, alternatives and evidence requirements",
+      "preserve uncertainty and competing explanations"
+    ],
+    "topics": [
+      "AI research framework",
+      "causal inference",
+      "AI systems",
+      "model behavior",
+      "human-AI interaction",
+      "AI evaluation",
+      "agentic AI",
+      "collective intelligence"
+    ]
+  }
 }
