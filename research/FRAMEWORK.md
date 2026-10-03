@@ -1,4 +1,4 @@
-# ICF-AI v1.0.1 — Core Framework
+# ICF-AI v1.0.1: Core Framework
 
 ## Purpose
 
