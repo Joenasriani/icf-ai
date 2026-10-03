@@ -1,6 +1,6 @@
 # ICF-AI Changelog
 
-## v1.0.1 — 2026-10-01
+## v1.0.1: 2026-10-01
 
 Research-method specification patch.
 
@@ -15,7 +15,7 @@ Research-method specification patch.
 - Added a reflowable EPUB edition and fillable research workbook to the purchaser package.
 
 
-## v1.0 — 2026-09-22
+## v1.0: 2026-09-22
 
 Initial public research record.
 
