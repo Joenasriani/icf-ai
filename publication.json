@@ -6,7 +6,7 @@
   "subtitle": "Integrative Causal Framework for AI Systems",
   "author": "J. Nasr",
   "edition": "Research Reference Edition v1.0.1",
-  "canonical_url": "https://reasoning-and-logic.vercel.app/icf-ai",
+  "canonical_url": "https://icf-ai.vercel.app/icf-ai",
   "repository": {
     "current": "Joenasriani/icf-ai"
   },
@@ -68,7 +68,7 @@
     }
   ],
   "routing": {
-    "mode": "store_reverse_proxy",
+    "mode": "standalone_publication",
     "canonical_path_preserved": true,
     "paths": [
       "/icf-ai",
@@ -129,5 +129,6 @@
       "agentic AI",
       "collective intelligence"
     ]
-  }
+  },
+  "catalogue_url": "https://reasoning-and-logic.vercel.app/"
 }
